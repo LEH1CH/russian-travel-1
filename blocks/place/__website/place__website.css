@@ -1,19 +1,15 @@
 .place__website {
-    align-self: end;
-    display: flex;
-    flex-direction: column;
-    grid-area: website;
-  }
-  
-  @media screen and (max-width: 767px) {
-    .place__website {
-      align-self: start;
-      
-    }
-  }
-
-  @media screen and (max-width: 425px){
-  .place__website {
-    padding: 0 16px;
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  grid-area: website;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    align-self: start;
+    max-width: 320px;
+    padding: 0;
+    padding-left: 16px;  
   }
+}

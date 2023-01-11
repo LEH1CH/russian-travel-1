@@ -3,36 +3,53 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  font-style: normal;
   margin: 0;
-  max-width: 400px;
+  max-width: 460px;
   color: white;
   }
-  
-  @media screen and (max-width: 1023px) {
-    .place__title {
-      max-width: 330px;
-      font-size: 42px;
-      line-height: 46px;
-   }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .place__title {
-      font-size: 32px;
-      line-height: 35px;
-      font-weight: 900;
-    }
-  }
 
-
-  @media screen and (max-width: 425px){
-.place__title {
-    padding: 0 16px;
+@media screen and (max-width: 1024px) {
+  .place__title {
+    max-width: 440px;   
+  }
 }
-  }
 
-  @media screen and (max-width: 320px) {
-.place__title {
+@media screen and (max-width: 768px) {
+  .place__title {
+    max-width: 340px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title:first-child {
+    max-width: 330px;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .place__title:nth-last-child(4) {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title:nth-last-child(4) {
+    width: 288px;
+  }
+}
+  
+@media screen and (max-width: 320px) {
+  .place__title {
     max-width: 288px;
-}
+    font-size: 32px;
+    line-height: 34px;
+    padding: 0;
+    padding-left: 16px;
+  }
 }
