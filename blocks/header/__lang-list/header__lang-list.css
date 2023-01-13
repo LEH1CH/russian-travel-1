@@ -1,0 +1,8 @@
+.header__lang-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  padding-bottom: 2px;
+  line-height: 200%;
+}
